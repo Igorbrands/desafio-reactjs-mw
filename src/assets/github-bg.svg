@@ -5,9 +5,9 @@
 </g>
 </g>
 <defs>
-<linearGradient id="paint0_linear" x1="344" y1="-25.6667" x2="344" y2="633.676" gradientUnits="userSpaceOnUse">
-<stop stop-color="#121214"/>
-<stop offset="1" stop-color="#121214" stop-opacity="0"/>
+<linearGradient id="paint0_linear" x1="355" y1="-25.6667" x2="344" y2="633.676" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ffffff"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
 </linearGradient>
 <clipPath id="clip0">
 <rect y="-40" width="688" height="688" fill="white"/>

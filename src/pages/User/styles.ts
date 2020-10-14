@@ -8,8 +8,8 @@ export const Header = styled.header`
   a {
     display: flex;
     align-items: center;
-    text-decoration: none;
     color: #a8a8b3;
+
     transition: color 0.2s;
 
     &:hover {
@@ -40,7 +40,7 @@ export const RepositoryInfo = styled.section`
 
       strong {
         font-size: 36px;
-        color: #3d3d4d;
+        color: #fff;
       }
 
       p {
@@ -60,13 +60,11 @@ export const RepositoryInfo = styled.section`
       & + li {
         margin-left: 80px;
       }
-    }
 
-    li {
       strong {
         display: block;
         font-size: 36px;
-        color: #3d3d4d;
+        color: #fff;
       }
 
       span {
@@ -78,7 +76,7 @@ export const RepositoryInfo = styled.section`
   }
 `;
 
-export const Issues = styled.div`
+export const Repos = styled.div`
   margin-top: 80px;
 
   a {
@@ -87,18 +85,18 @@ export const Issues = styled.div`
     width: 100%;
     padding: 24px;
     display: block;
-    text-decoration: none;
 
     display: flex;
     align-items: center;
-    transition: transform 0.2s;
 
-    &:hover {
-      transform: translateX(10px);
-    }
+    transition: transform 0.2s;
 
     & + a {
       margin-top: 16px;
+    }
+
+    &:hover {
+      transform: translateX(10px);
     }
 
     div {
@@ -109,12 +107,14 @@ export const Issues = styled.div`
         font-size: 20px;
         color: #3d3d4d;
       }
+
       p {
         font-size: 18px;
         color: #a8a8b3;
-        margin-top: 4px;
+        margin-top: 8px;
       }
     }
+
     svg {
       margin-left: auto;
       color: #cbcbd6;

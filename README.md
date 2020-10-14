@@ -1,10 +1,15 @@
 # github_explorer
 
-A ReactJS project using the Github API. Made during the Rocketseat Bootcamp 11.
+A ReactJS project using:
 
-Wich one you can find and save in local storage all your favorites repositories and see all your issues/pull requests, Stars and Forks.
+- Github API
+- TypeScript
+- Redux
+- Local Storage
+- Hooks
+- Styled-Components
 
-
+Wich one you can find and save in local storage all your favorites users and see all your repositories.
 
 # List your favorites repositories projects and see their informations:
 
