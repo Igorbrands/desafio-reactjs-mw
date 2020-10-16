@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useRouteMatch, Link } from 'react-router-dom';
-import { FiChevronLeft, FiChevronRight, FiBook } from 'react-icons/fi';
+import { FiChevronLeft, FiChevronRight, FiBook, FiStar } from 'react-icons/fi';
 import api from '../../services/api';
 
 import logoImg from '../../assets/logo.svg';
@@ -25,6 +25,7 @@ interface Repo {
   full_name: string;
   html_url: string;
   description: string;
+  stargazers_count: string;
 }
 
 const User: React.FC = () => {
@@ -77,6 +78,8 @@ const User: React.FC = () => {
             <div>
               <strong>{repo.name}</strong>
               <p>{repo.description}</p>
+              <p>Stars: {repo.stargazers_count}</p>
+              <FiStar color="#000" size={20} />
             </div>
             <FiChevronRight size={20} />
           </a>

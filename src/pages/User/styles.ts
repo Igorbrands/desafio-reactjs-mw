@@ -85,6 +85,7 @@ export const Repos = styled.div`
     width: 100%;
     padding: 24px;
     display: block;
+    text-decoration: none;
 
     display: flex;
     align-items: center;

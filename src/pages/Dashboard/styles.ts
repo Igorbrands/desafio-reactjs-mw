@@ -94,6 +94,7 @@ export const Users = styled.div`
 
     div {
       margin: 0 16px;
+      line-height: 22px;
       flex: 1;
 
       strong {

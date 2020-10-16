@@ -1,6 +1,6 @@
 import React, { useState, useEffect, FormEvent } from 'react';
 import { Link } from 'react-router-dom';
-import { FiChevronRight } from 'react-icons/fi';
+import { FiChevronRight, FiBook } from 'react-icons/fi';
 
 import api from '../../services/api';
 
@@ -82,7 +82,8 @@ const Dashboard: React.FC = () => {
             <div>
               <strong>{user.login}</strong>
               <br />
-              <strong>Repositórios: {user.public_repos}</strong>
+              <FiBook color="#fff" size={20} />
+              <strong> {user.public_repos}</strong>
               <p>{user.location}</p>
               <p>{user.bio}</p>
             </div>
