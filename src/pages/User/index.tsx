@@ -5,7 +5,7 @@ import api from '../../services/api';
 
 import logoImg from '../../assets/logo.svg';
 
-import { Header, RepositoryInfo, Repos } from './styles';
+import { Header, UserInfo, Repos } from './styles';
 
 interface UserParams {
   user: string;
@@ -54,7 +54,7 @@ const User: React.FC = () => {
       </Header>
 
       {user && (
-        <RepositoryInfo>
+        <UserInfo>
           <header>
             <img src={user.avatar_url} alt={user.login} />
             <div>
@@ -69,7 +69,7 @@ const User: React.FC = () => {
               <strong>{user.public_repos}</strong>
             </li>
           </ul>
-        </RepositoryInfo>
+        </UserInfo>
       )}
 
       <Repos>
